@@ -93,9 +93,9 @@ static const float factor2D = sqrt(5) / sqrt(2) + 1;
 /// [#] --- A movement cost penalty for turning (choosing non straight motion primitives)
 static const float penaltyTurning = 1.05;
 /// [#] --- A movement cost penalty for reversing (choosing motion primitives > 2)
-static const float penaltyReversing = 2.0;
+static const float penaltyReversing = 1.5;
 /// [#] --- A movement cost penalty for change of direction (changing from primitives < 3 to primitives > 2)
-static const float penaltyCOD = 2.0;
+static const float penaltyCOD = 1.5;
 /// [m] --- The distance to the goal when the analytical solution (Dubin's shot) first triggers
 static const float dubinsShotDistance = 100;
 /// [m] --- The step size for the analytical solution (Dubin's shot) primarily relevant for collision checking
